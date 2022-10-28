@@ -1,0 +1,15 @@
+<app-navbar></app-navbar>
+<div class="Bo" *ngFor="let item of itemList">
+    <app-item [item]="item"></app-item>
+</div>
+<!-- <app-button [count]="count" (countChange)="this.count = $event"></app-button> -->
+<!-- <app-button [(count)]="count"></app-button>
+<h2>{{count}}</h2>
+<p>Hiện tại: {{ date | date}}</p>
+<p [ngClass]="classStyle">Hellow world</p>
+<p [ngStyle]="style" >Xin chao</p>
+<button (click)= "changeColor('red')" >red</button>
+<button (click)= "changeColor('blue')">blue</button> -->
+<button (click)="tinhTien()">Thanh toan</button>
+<div>Tong tien: {{sum}}</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,23 @@
+.container{
+    background-color: #ed7900;
+    justify-content: space-between;
+    display: flex;
+    height: auto;
+}
+.logo{
+    margin-left: 100px;
+}
+
+.nav-primary{
+    display: flex;
+    gap: 1rem;
+    margin-top: 40px;
+}
+.bt{
+    background-color: #ed7900;
+    color: white;
+    border: none;
+    font-size: larger;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
